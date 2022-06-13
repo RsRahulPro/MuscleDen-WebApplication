@@ -60,8 +60,16 @@ body {
   right: 40px;
   top: 0px;
   width: 700px;
-  height: 900px;
+  /* height: 900px; */
   margin-top: -330px;
+  border-radius: 15px;
+  height: 95%;
+  object-fit: cover;
+  top: 113px;
+  right: 10px;
+  -webkit-box-shadow: -2px 1px 10px 1px rgba(168, 163, 168, 1);
+  -moz-box-shadow: -2px 1px 10px 1px rgba(168, 163, 168, 1);
+  box-shadow: -2px 1px 10px 1px rgba(168, 163, 168, 1);
 }
 
 .exercise-card {
