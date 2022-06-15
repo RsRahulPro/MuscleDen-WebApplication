@@ -13,14 +13,16 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 
 const App = () => (
-  <Box width="400px" sx={{width: {xl: "1488px"}}} m="auto">
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/exercise/:id" element={<ExerciseDetail />} />
-    </Routes>
-    <Footer />
-  </Box>
+  <div className="everything-container">
+    <Box width="400px" sx={{width: {xl: "1488px"}}} m="auto">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/exercise/:id" element={<ExerciseDetail />} />
+      </Routes>
+      <Footer />
+    </Box>
+  </div>
 );
 
 export default App;

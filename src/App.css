@@ -15,6 +15,9 @@ body {
 ::-webkit-scrollbar {
   width: 0px;
 }
+.everything-container {
+  overflow-x: hidden;
+}
 
 .right-arrow,
 .left-arrow {
@@ -76,8 +79,9 @@ body {
   width: 400px;
   height: 445px;
   background: #fff;
-  border-top: 4px solid #ff2625;
+  border-top: 4px solid #0e1398;
   border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -85,6 +89,10 @@ body {
   padding-bottom: 10px;
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  font-family: montserrat;
 }
 
 .exercise-card img {
