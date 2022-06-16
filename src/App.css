@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&family=Noto+Sans:wght@300;400;500;600&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Montserrat", sans-serif;
   /* font-family: "Noto Sans", sans-serif; */
@@ -122,6 +124,10 @@ body {
   width: 387px;
   height: 381px;
   text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 1200px) {
