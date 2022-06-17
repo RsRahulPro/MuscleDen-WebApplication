@@ -56,23 +56,25 @@ const SearchExercises = ({setExercises, bodyPart, setBodyPart}) => {
             setSearch(e.target.value.toLowerCase());
           }}
         />
-        <Button
-          className="search-btn"
-          onClick={searchHandler}
-          sx={{
-            bgcolor: "black",
-            color: "#fff",
-            textTransform: "none",
-            width: {lg: "173px", xs: "80px"},
-            height: "56px",
-            position: "absolute",
-            right: "0px",
-            fontSize: {lg: "20px", xs: "14px"},
-            fontFamily: "montserrat",
-          }}
-        >
-          Search
-        </Button>
+        <a href="#exercise-result">
+          <Button
+            className="search-btn"
+            onClick={searchHandler}
+            sx={{
+              bgcolor: "black",
+              color: "#fff",
+              textTransform: "none",
+              width: {lg: "173px", xs: "80px"},
+              height: "56px",
+              position: "absolute",
+              right: "0px",
+              fontSize: {lg: "20px", xs: "14px"},
+              fontFamily: "montserrat",
+            }}
+          >
+            Search
+          </Button>
+        </a>
       </Box>
       <Box sx={{position: "relative", width: "100%", p: "20px"}}>
         <HorizontalScrollbar data={bodyParts} bodyParts setBodyPart={setBodyPart} bodyPart={bodyPart} />
