@@ -4,7 +4,6 @@ html {
 }
 body {
   font-family: "Montserrat", sans-serif;
-  /* font-family: "Noto Sans", sans-serif; */
   background-color: #fffafb;
 }
 
@@ -30,7 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ff2625;
+  color: #0e1398;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
